@@ -9,10 +9,10 @@ public class Task5 {
 
             Scanner sc = new Scanner(System.in);
 
-            int x = sc.nextInt();
-            int y = sc.nextInt();
+            double x = sc.nextDouble();
+            double y = sc.nextDouble();
 
-            int average = (x + y) / 2;
+            double average = (x + y) / 2;
 
             System.out.println("Average = " + average);
 
